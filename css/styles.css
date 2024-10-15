@@ -3,18 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Stylized Page */
+
 body {
   background-color: #938c8c;
   color: #333;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.6;
 }
 
 nav {
   text-align: center;
   background-color: #444;
-  padding: 10px 0;
+  padding: 1rem;
 }
 
 nav ul {
@@ -25,13 +25,13 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 1rem;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
@@ -40,24 +40,24 @@ nav ul li a:hover {
 }
 
 main {
-  padding: 20px;
+  padding: 1.25rem;
 }
+
 ul {
   list-style-type: disc; 
-  margin-left: 20px; 
+  margin-left: 1.25rem; 
 }
 
 li {
-  margin-bottom: 5px; 
+  margin-bottom: 0.3125rem; 
 }
-
 
 section {
   background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 20px 0;
+  border-radius: 0.3125rem;
+  padding: 0.9375rem; 
+  margin: 1.25rem 0;
   transition: background-color 0.3s ease;
 }
 
@@ -68,28 +68,28 @@ section:hover {
 h1 {
   background-color: #000; 
   color: #fff; 
-  font-size: 36px;
-  margin-bottom: 20px;
-  padding: 10px; 
+  font-size: 2.25rem; 
+  margin-bottom: 1.25rem; 
+  padding: 0.625rem; 
 }
 
 h2 {
   background-color: #000; 
   color: #fff; 
-  font-size: 28px;
-  margin-bottom: 10px;
-  padding: 5px; 
+  font-size: 1.75rem; 
+  margin-bottom: 0.625rem; 
+  padding: 0.3125rem; 
 }
+
 h3 {
-  font-size: 24px; 
+  font-size: 1.5rem; 
   color: #000; 
   font-weight: bold; 
-  margin-bottom: 10px; 
+  margin-bottom: 0.625rem; 
 }
 
 img {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
-/* Stylized Page */

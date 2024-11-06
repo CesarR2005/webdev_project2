@@ -110,3 +110,15 @@ h3 {
   margin-top: 0; 
   text-align: center;
 }
+
+.iframe-container {
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  margin: 0 auto;             
+}
+
+iframe {
+  max-width: 100%;           
+  height: auto;               
+}

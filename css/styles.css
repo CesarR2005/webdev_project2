@@ -94,23 +94,26 @@ img {
   height: auto;
   border-radius: 0.3125rem;
 }
+
 .hobby-container {
-  overflow: hidden; 
   text-align: center;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 .hobby-container img {
-  float: left; 
-  margin-right: 1.25rem; 
-  width: 40%; 
+  max-width: 100%; 
+  width: 50%; 
+  height: auto; 
+  border: 5px solid black;
   border-radius: 0.3125rem; 
-  border: 5px solid black; 
+  margin-bottom: 1rem; 
 }
 
 .hobby-container p {
-  display: inline-block; 
-  max-width: 55%; 
-  vertical-align: top; 
+  max-width: 80%; 
   margin-top: 0; 
-  text-align: left;
+  text-align: center;
 }

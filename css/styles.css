@@ -94,3 +94,23 @@ img {
   height: auto;
   border-radius: 0.3125rem;
 }
+.hobby-container {
+  overflow: hidden; 
+  text-align: center;
+}
+
+.hobby-container img {
+  float: left; 
+  margin-right: 1.25rem; 
+  width: 40%; 
+  border-radius: 0.3125rem; 
+  border: 5px solid black; 
+}
+
+.hobby-container p {
+  display: inline-block; 
+  max-width: 55%; 
+  vertical-align: top; 
+  margin-top: 0; 
+  text-align: left;
+}
